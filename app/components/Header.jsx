@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <div className="flex justify-between items-center w-full px-3 py-4 bg-gray-50 dark:bg-gray-800">
+    <div className="flex flex-col lg:flex-row gap-3 justify-center lg:justify-between items-center w-full  p-1 lg:px-3 py-4  bg-gray-50 dark:bg-gray-800">
       <div>
         <Link href="/">
           <p className="text-blue-600 font-extrabold text-3xl">
@@ -10,7 +10,7 @@ function Header() {
           </p>
         </Link>
       </div>
-      <ul className=" flex gap-4 justify-center  font-medium text-blue-600">
+      <ul className=" flex justify-center gap-3 text-sm items-center align-middle font-medium text-blue-600">
         <li className="hover:text-blue-900">
           <Link href="/web">Web Projects</Link>
         </li>

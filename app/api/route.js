@@ -90,7 +90,32 @@ export async function GET() {
                 "level": "Advanced",
                 "image": "https://i.ibb.co/xhmnJGc/Git.jpg"
             },
-            
+            {
+                "id": 67,
+                "name": "PostgreSQL",
+                "level": "Advanced",
+                "image": "https://i.ibb.co/cCBcBxc/Postgre-SQL-Light.jpg"
+            },
+            {
+                "id": 67,
+                "name": "Postman",
+                "level": "Advanced",
+                "image": "https://i.ibb.co/c8G22np/Postman.jpg"
+
+            },
+
+            {
+                "id": 67,
+                "name": "Python",
+                "level": "Advanced",
+                "image": "https://i.ibb.co/q5ZQQY5/Python-Light.jpg"
+            },
+            {
+                "id": 67,
+                "name": "R",
+                "level": "Advanced",
+                "image": "https://i.ibb.co/4jgC6hx/R-Light.jpg"
+            },
         ],
         images:[
             {
@@ -102,3 +127,4 @@ export async function GET() {
     }
     return Response.json(res)
 }
+
